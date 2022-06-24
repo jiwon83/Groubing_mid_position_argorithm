@@ -5,23 +5,16 @@
 
 원리
 
-출처 입력
-
 x,y 좌표 점 여러개들 중 y좌표가 가장 적은 점을 기준으로 각도를 계산해서 다각형리스트를 만든다.
 
 다각형을 여러 개의 삼각형으로 분할
 
 기준점인 한 점으로부터 양 옆의 인접한 두 점을 제외한 점들과 모두 연결
 
+![다각형 삼각형으로 분할](https://user-images.githubusercontent.com/88698607/175563164-17d08a39-225c-4277-9f8e-04dd06a82980.png)
 
+![다각형_삼각형으로_분할2](https://user-images.githubusercontent.com/88698607/175563380-b48e4f1a-555d-403a-8b12-9a9ce0f6cf87.png)
 
-대표사진 삭제
-사진 설명을 입력하세요.
-
-
-
-사진 삭제
-사진 설명을 입력하세요.
 
 3. 각 삼각형의 중점을 구한다.
 
@@ -33,8 +26,8 @@ x,y 좌표 점 여러개들 중 y좌표가 가장 적은 점을 기준으로 각
 
 
 
-대표사진 삭제
-사진 설명을 입력하세요.
+![삼각형의중점](https://user-images.githubusercontent.com/88698607/175563425-19512d6f-44b4-460d-8ff3-fef3a846203c.png)
+
 
 4. 그렇게 나온 중점이 3개 이상일 경우 2~3번 과정을 반복, 2개일 경우 산술평균으로 하나의 중점을 구하고, 1개일 경우 그 점이 중점이 된다.
 
@@ -43,12 +36,8 @@ x,y 좌표 점 여러개들 중 y좌표가 가장 적은 점을 기준으로 각
 
 알고리즘 개요
 
-출처 입력
+![알고리즘구조](https://user-images.githubusercontent.com/88698607/175563458-438860c8-97a1-47db-8519-c32a937731ee.png)
 
-
-
-사진 삭제
-사진 설명을 입력하세요.
 
 input: x,y Point객체로 이루어진 리스트
 
@@ -58,32 +47,28 @@ output: 중점 x,y Point 객체
 
 코드
 
-출처 입력
 
-Point.java
-
-: x, y 좌표 클래스
+- Point.java : x, y 좌표 클래스
 
 
-Triangle.java
+- Triangle.java
 
 
-
-Ploygon.java
+- Ploygon.java
 
 매서드들의 실행 순서는 다음과 같다.
 
 
-getPloygonMidPoint()
+1. getPloygonMidPoint()
 
-pointToMidPoint()
+2. pointToMidPoint()
 
-init()
+3. init()
 
-coputeAngle()
+4. coputeAngle()
 
-divideToTriangle()
+5. divideToTriangle()
 
-getMidPoint()
+6. getMidPoint()
 
 
