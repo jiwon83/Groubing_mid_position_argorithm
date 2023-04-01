@@ -1,5 +1,4 @@
-# -
-다각형을 삼각형으로 분할하여 중점을 찾는 알고리즘입니다.
+# 다각형의 중점 알고리즘
 
 ﻿
 
@@ -13,7 +12,8 @@ x,y 좌표 점 여러개들 중 y좌표가 가장 적은 점을 기준으로 각
 
 ![다각형 삼각형으로 분할](https://user-images.githubusercontent.com/88698607/175563164-17d08a39-225c-4277-9f8e-04dd06a82980.png)
 
-![다각형_삼각형으로_분할2](https://user-images.githubusercontent.com/88698607/175563380-b48e4f1a-555d-403a-8b12-9a9ce0f6cf87.png)
+-- ![다각형_삼각형으로_분할2](https://user-images.githubusercontent.com/88698607/175563380-b48e4f1a-555d-403a-8b12-9a9ce0f6cf87.png)
+<img src="https://user-images.githubusercontent.com/88698607/175563380-b48e4f1a-555d-403a-8b12-9a9ce0f6cf87.png"  width="700" height="370">
 
 
 3. 각 삼각형의 중점을 구한다.
