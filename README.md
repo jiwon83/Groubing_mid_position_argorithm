@@ -7,7 +7,7 @@
 + 두번째로, 외심을 이용한 방법을 생각했지만 모두에게 동일한 거리를 제공할 수 있지만 아래 그림의 왼쪽처럼 효율성이 다소 떨어지는 위치가 도출될 수 있다는 문제가 있습니다.
 + 따라서 물론 각 사용자간 거리의 편차는 존재하지만 합리적인 중간 위치를 제공하기 위해 아래 그림의 오른쪽의 방식으로 구현하도록 했습니다.
 
-<img src="https://user-images.githubusercontent.com/88698607/229268722-6e7aed7e-484c-4c34-a9a4-e3e7e540d33f.png"  width="1000" height="660">
+<img src="https://user-images.githubusercontent.com/88698607/229268722-6e7aed7e-484c-4c34-a9a4-e3e7e540d33f.png"  width="1000" height="560">
 
 <br/>
 <br/>
