@@ -1,6 +1,20 @@
 # 다각형의 중점 알고리즘
 
-﻿
+﻿3. 중간 배송지 알고리즘 원리 및 구현
+![그림24](https://user-images.githubusercontent.com/76260153/182795170-088fa3e4-6e09-4074-981f-4ac26bdda60b.png)
+- 공동 구매 거래자들의 주소를 활용해 최적의 중간 지점과, 중간 지점과 가까운 편의점 찾기
+- 다각형의 각 변의 이등분 선으로 점점 더 작은 다각형을 만들어 수렴하도록 하는 방법
+
+![그림21](https://user-images.githubusercontent.com/76260153/182794962-27b15a48-7932-442d-922f-5923fdb7de95.png)
+- 카카오 맵 API의 service.Geocoder 객체의 addressSearch(), coord2Address() 함수를 활용하여 지번주소를 위경도로 변환
+
+![그림22](https://user-images.githubusercontent.com/76260153/182794978-905668a1-9c52-4802-85da-6e060c4ba38c.png)
+- 유클리디안 거리를 활용
+
+![그림23](https://user-images.githubusercontent.com/76260153/182794987-cbd6333f-5cb8-4bbd-b027-6234ee14b31d.png)
+
+##### 구현 결과
+<img width="963" alt="그림25" src="https://user-images.githubusercontent.com/76260153/182795907-95d0cd0f-ad77-446a-b6fa-606cd7a64da4.png">
 
 ## 고민 과정
 + 처음으로, 산술평균을 계산했지만 무게 중심 때문에 (예를 들어, 서울 부산, 강원에 유저가 있다면 부산에 거주하는) 특정 사용자에게 지나치게 멀다는 문제가 발생했습니다.
